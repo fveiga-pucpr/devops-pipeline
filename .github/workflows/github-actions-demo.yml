@@ -9,7 +9,7 @@ build-job:
     stage: build
     script:
         - python3 -V
-teste-count:
+teste-job:
     stage: test
     script:
         - python3 teste.py
