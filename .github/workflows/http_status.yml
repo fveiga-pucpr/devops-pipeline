@@ -11,5 +11,5 @@ jobs:
       uses: lakuapik/gh-actions-http-status@v1
       with:
         sites: '["https://edsonlmachado.github.io/DevOps-Somativa1/"]'
-        expected: '[301, 200]'
+        expected: '[200]'
     # ... uses ....
