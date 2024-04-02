@@ -10,6 +10,6 @@ jobs:
     - name: Check http status code of production site
       uses: lakuapik/gh-actions-http-status@v1
       with:
-        sites: '["http://github.com", "https://education.github.com"]'
+        sites: '["https://edsonlmachado.github.io/DevOps-Somativa1/"]'
         expected: '[301, 200]'
     # ... uses ....
